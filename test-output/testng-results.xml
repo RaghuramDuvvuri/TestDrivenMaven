@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-20T05:54:42Z" name="Default suite" finished-at="2020-12-20T06:00:50Z" duration-ms="368092">
+    <groups>
+    </groups>
+    <test started-at="2020-12-20T05:54:42Z" name="Default test" finished-at="2020-12-20T06:00:50Z" duration-ms="368092">
+      <class name="testing.test">
+        <test-method is-config="true" signature="startTesting()[pri:0, instance:testing.test@5f9be66c]" started-at="2020-12-20T05:54:42Z" name="startTesting" finished-at="2020-12-20T05:54:42Z" duration-ms="25" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTesting -->
+        <test-method signature="testlaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testing.test@5f9be66c]" started-at="2020-12-20T05:54:43Z" name="testlaunch" data-provider="getData" finished-at="2020-12-20T05:59:05Z" duration-ms="262517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginTest|| ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Check URL|| ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox|| ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlaunch -->
+        <test-method signature="testlaunch(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testing.test@5f9be66c]" started-at="2020-12-20T05:59:24Z" name="testlaunch" data-provider="getData" finished-at="2020-12-20T06:00:50Z" duration-ms="86065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SigninTest|| ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Open search box|| ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[firefox|| ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testlaunch -->
+        <test-method is-config="true" signature="endScript()[pri:0, instance:testing.test@5f9be66c]" started-at="2020-12-20T06:00:50Z" name="endScript" finished-at="2020-12-20T06:00:50Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endScript -->
+      </class> <!-- testing.test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
